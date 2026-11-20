@@ -1,0 +1,47 @@
+name: Propose a change
+description: Describe the problem and expected outcome before implementation.
+title: "[Change] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Describe the problem in plain language. Use synthetic examples only;
+        do not include protected data, credentials, or customer identifiers.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem are we solving?
+      description: Explain who is affected and what happens today.
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: What should be different?
+      description: Describe the desired outcome, not a technical solution.
+    validations:
+      required: true
+  - type: textarea
+    id: examples
+    attributes:
+      label: Examples of success and failure
+      description: Give concrete examples, including boundaries or rejection cases.
+    validations:
+      required: true
+  - type: textarea
+    id: constraints
+    attributes:
+      label: Constraints and non-goals
+      description: Include applicable security, privacy, and scope boundaries.
+  - type: input
+    id: spec
+    attributes:
+      label: OpenSpec change
+      description: Add the change folder when it has been created.
+      placeholder: openspec/changes/change-name/
+  - type: input
+    id: behavior
+    attributes:
+      label: Gherkin scenarios
+      description: Link the feature file once the behavior has been described.
+      placeholder: features/example.feature

@@ -1,0 +1,15 @@
+# The repository owner is the default reviewer for all files.
+* @samueltauil
+#
+# Replace or supplement this owner with real users or visible teams that have
+# write access. See docs/governance.md before requiring owner review.
+#
+# /src/                         @YOUR-ORG/engineering
+# /tests/                       @YOUR-ORG/engineering
+# /openspec/specs/              @YOUR-ORG/architecture @YOUR-ORG/product
+# /openspec/changes/            @YOUR-ORG/architecture @YOUR-ORG/product
+# /features/                    @YOUR-ORG/product @YOUR-ORG/quality
+# /features/step-definitions/   @YOUR-ORG/engineering @YOUR-ORG/quality
+# /docs/adr/                    @YOUR-ORG/architecture
+# /.github/workflows/           @YOUR-ORG/platform
+# /.github/CODEOWNERS           @YOUR-ORG/platform @YOUR-ORG/security
